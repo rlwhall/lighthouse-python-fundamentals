@@ -1,0 +1,9 @@
+sum = 0
+tries = 1
+
+while tries <= 3:
+    num = int(input("Please choose a number:  "))
+    sum += num
+    tries += 1
+
+print(sum)
